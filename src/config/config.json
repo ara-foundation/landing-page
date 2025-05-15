@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "Ara",
+    "base_url": "https://ara.foundation/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_height": "120",
+    "logo_text": "Ara"
   },
 
   "settings": {
@@ -23,14 +23,14 @@
   },
 
   "params": {
-    "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "contact_form_action": "t.me/arasangha",
+    "copyright": "Made by [Ara Foundation](https://ara.foundation) 2025."
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "link": "https://github.com/ara-foundation/web"
   },
 
   "google_tag_manager": {
@@ -45,8 +45,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "ara.foundation",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "a community that turns open-source softwares into a living organism"
   }
 }

@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "name": "telegram",
+      "icon": "FaTelegram",
+      "link": "https://t.me/arasangha"
     },
     {
       "name": "twitter",
       "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "link": "twitter.com/ara_foundation_"
     },
     {
       "name": "github",
       "icon": "FaGithub",
-      "link": "https://www.github.com/"
+      "link": "https://www.github.com/ara-foundation/web"
     },
     {
       "name": "linkedin",
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/@medet-ahmetson"
     }
   ]
 }

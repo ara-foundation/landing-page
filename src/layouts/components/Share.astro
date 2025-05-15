@@ -1,17 +1,13 @@
 ---
 import config from "@/config/config.json";
 import {
-  IoLogoFacebook,
-  IoLogoLinkedin,
-  IoLogoPinterest,
+  IoLogoGithub,
+  IoSend,
+  IoLogoYoutube,
   IoLogoTwitter,
 } from "react-icons/io5";
 
-const { base_url }: { base_url: string } = config.site;
 const {
-  title,
-  description,
-  slug,
   className,
 }: { title?: string; description?: string; slug?: string; className?: string } =
   Astro.props;
@@ -19,43 +15,46 @@ const {
 
 <ul class={`${className}`}>
   <li class="inline-block">
-    <a
-      aria-label="facebook share button"
-      href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
+    <!-- Place this tag where you want the button to render. -->
+    <a 
+      class="github-button" 
+      href="https://github.com/ara-foundation/web" 
+      data-color-scheme="no-preference: light; light: light; dark: dark;" 
+      data-size="large" 
       target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoFacebook />
+      aria-label="Star ara-foundation/web on GitHub">Star</a>
+      <IoLogoGithub />
     </a>
   </li>
   <li class="inline-block">
     <a
       aria-label="twitter share button"
-      href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
+      href={`https://twitter.com/ara_foundation_`}
       target="_blank"
+      class="twitter-follow-button"
       rel="noreferrer noopener"
     >
-      <IoLogoTwitter />
+      <IoLogoTwitter /> Follow @ara_foundation_
     </a>
   </li>
   <li class="inline-block">
     <a
-      aria-label="linkedin share button"
-      href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
+      aria-label="youtube watch"
+      href={`https://www.youtube.com/@medet-ahmetson`}
       target="_blank"
       rel="noreferrer noopener"
     >
-      <IoLogoLinkedin />
+      <IoLogoYoutube />
     </a>
   </li>
   <li class="inline-block">
     <a
-      aria-label="pinterest share button"
-      href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}
+      aria-label="telegram share button"
+      href={`https://t.me/arasangha`}
       target="_blank"
       rel="noreferrer noopener"
     >
-      <IoLogoPinterest />
+      <IoSend /> Join our Telegram
     </a>
   </li>
 </ul>

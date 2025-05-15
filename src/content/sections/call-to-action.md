@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Ready to build your next project that can grow in the web?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Start creating modular apps by looking over the library documentation on README. We always welcome anyone who wants to become a part of our community. Check [Ara Sangha Group (Telegram)](t.me/arasangha)"
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  label: "Check out Readme.md"
+  link: "https://github.com/ara-foundation/web"
 ---

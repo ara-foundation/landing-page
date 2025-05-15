@@ -5,53 +5,41 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Community",
+      "url": "/community"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Roadmap",
+      "url": "/roadmap"
     },
     {
-      "name": "Pages",
+      "name": "Projects",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "SDS library",
+          "url": "https://github.com/ara-foundation/web/blob/main/packages/p-hintjens/SDS.md"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Rest library",
+          "url": "https://github.com/ara-foundation/web/tree/main/packages/p-hintjens"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
+          "name": "Reflect library",
+          "url": "https://github.com/ara-foundation/web/tree/main/packages/reflect"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Contact us",
+      "url": "/contact"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Our community",
+      "url": "/community"
     }
   ]
 }

@@ -1,53 +1,40 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Interoperable open-source apps as a living organism"
+  content: "Ara is a set of protocols, libraries, and the payment network aiming to turn chaotic, underperforming open-source into the driving force of the Web."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: "Join our dev community (Telegram)"
+    link: "https://t.me/arasangha"
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "What benefits does the user receive from a web living organism?"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "A unified user interface and the ability to customize the web apps you use with the Agents and Bots on your browser are just two examples of the new benefits Ara offers for technologies that were previously unattainable. Furthermore:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Astro"
-    image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Pay only to a living organism: your one payment as you go will be distributed worldwide."
+      - "Get in touch with with open-source developers to collaborate on app development"
+      - "Any web app has an open-source, cheaper analog, so pay less, and Ara distributes them to all contributors"
+      - "**To stay informed about the release date of the interface with the open-source apps hub, join our telegram news channel.**"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      label: "Subscribe to our Telegram Channel for news"
+      link: "t.me/arafoundation"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "What benefits do developers receive from web living organisms?"
+    image: "/images/service-2.png"
+    content: "You can prevent unexpected complexity by designing your app to be a part of the living organism. Concentrate on your goals and use other people's instruments for other purposes. Furthermore:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Create module app and with paradigm to put in living organism, you make it as a better design choices."
+      - "If your library used for commercial use, get shares for all contributors of the code."
+      - "Permit others to edit and create mods; if they become well-liked, you will also receive your shares."
+      - "**To begin using our libraries to transform your projects into a plugin-n-play architecture, see our GitHub**"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Check out Github for starting to use libraries for living organism."
+      link: "https://github.com/ara-foundation/web"
+
 ---
