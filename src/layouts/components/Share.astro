@@ -1,14 +1,16 @@
 ---
 import config from "@/config/config.json";
 import {
-  IoLogoGithub,
+  IoLogoLinkedin,
   IoSend,
-  IoLogoYoutube,
   IoLogoTwitter,
 } from "react-icons/io5";
+const { base_url }: { base_url: string } = config.site;
 
 const {
+  title,
   className,
+  slug,
 }: { title?: string; description?: string; slug?: string; className?: string } =
   Astro.props;
 ---
@@ -18,43 +20,33 @@ const {
     <!-- Place this tag where you want the button to render. -->
     <a 
       class="github-button" 
-      href="https://github.com/ara-foundation/web" 
+      href={`https://www.linkedin.com/shareArticle?url=${base_url}/${slug}`} 
       data-color-scheme="no-preference: light; light: light; dark: dark;" 
       data-size="large" 
       target="_blank"
-      aria-label="Star ara-foundation/web on GitHub">Star</a>
-      <IoLogoGithub />
+      aria-label="Star ara-foundation/web on GitHub">
+      <IoLogoLinkedin />
     </a>
   </li>
   <li class="inline-block">
     <a
       aria-label="twitter share button"
-      href={`https://twitter.com/ara_foundation_`}
+      href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
       target="_blank"
       class="twitter-follow-button"
       rel="noreferrer noopener"
     >
-      <IoLogoTwitter /> Follow @ara_foundation_
-    </a>
-  </li>
-  <li class="inline-block">
-    <a
-      aria-label="youtube watch"
-      href={`https://www.youtube.com/@medet-ahmetson`}
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoYoutube />
+      <IoLogoTwitter />
     </a>
   </li>
   <li class="inline-block">
     <a
       aria-label="telegram share button"
-      href={`https://t.me/arasangha`}
+      href={`https://telegram.me/share/url?url=${base_url}/${slug}&text=${title}`}
       target="_blank"
       rel="noreferrer noopener"
     >
-      <IoSend /> Join our Telegram
+      <IoSend />
     </a>
   </li>
 </ul>

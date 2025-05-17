@@ -9,6 +9,10 @@
       "url": "/community"
     },
     {
+      "name": "Blogs",
+      "url": "/blog"
+    },
+    {
       "name": "Roadmap",
       "url": "/roadmap"
     },
