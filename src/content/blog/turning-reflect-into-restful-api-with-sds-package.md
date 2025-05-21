@@ -2,7 +2,7 @@
 title: "How did I create a REST api for the app that mirrors itself"
 meta_title: ""
 description: "A blog describes our refactoring journey when we turned our AST tree to be REST operational"
-date: 2025-05-17T00:00:00Z
+date: 2025-05-21T00:00:00Z
 categories: ["rest", "sds", "reflect", "refactoring"]
 author: "Medet Ahmetson"
 tags: ["refactoring", "reflect", "exciting"]
