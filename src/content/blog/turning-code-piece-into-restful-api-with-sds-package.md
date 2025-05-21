@@ -1,5 +1,5 @@
 ---
-title: "How did I create a REST api for any JSON object"
+title: "Interact with the javascript/json objects in a Restful way using SDSRest"
 meta_title: ""
 description: "A blog describes our refactoring when we turned our AST tree to be REST operational"
 date: 2025-05-17T00:00:00Z

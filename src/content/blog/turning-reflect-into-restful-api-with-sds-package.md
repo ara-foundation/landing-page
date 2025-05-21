@@ -1,7 +1,7 @@
 ---
-title: "How did I create a REST api for the app that mirrors itself"
+title: "Composing SDSRest with other SDSRest to compose"
 meta_title: ""
-description: "A blog describes our refactoring journey when we turned our AST tree to be REST operational"
+description: "A blog describes our refactoring journey when we turned our rest to be REST operational"
 date: 2025-05-21T00:00:00Z
 categories: ["rest", "sds", "reflect", "refactoring"]
 author: "Medet Ahmetson"
