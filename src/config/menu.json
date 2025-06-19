@@ -22,6 +22,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Hyperpayment protocol",
+          "url": "https://hyperpayment.org"
+        },
+        {
           "name": "SDS library",
           "url": "https://github.com/ara-foundation/web/blob/main/packages/p-hintjens/SDS.md"
         },

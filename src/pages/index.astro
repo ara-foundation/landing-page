@@ -45,9 +45,9 @@ const { banner, features } = homepage.data as Homepage;
         <div class="lg:col-7 md:col-9 mb-8 text-center">
           <h1
             set:html={markdownify(banner.title)}
-            class="mb-4 text-h3 lg:text-h1"
+            class="mb-4 text-h3 lg:text-h2"
           />
-          <p set:html={markdownify(banner.content)} class="mb-8" />
+          <p set:html={markdownify(banner.content)} class="mb-8 text-lg" />
           {
             banner.button.enable && (
               <a

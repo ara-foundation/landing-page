@@ -1,11 +1,29 @@
 ---
-title: "Ara Roadmap"
+title: "Ara Project's Roadmap"
 meta_title: "Ara roadmap"
 description: "A roadmap of Ara's journey!"
 draft: false
 ---
 
 Our development progress and the current state of Ara's development pipeline are highlighted on this page. Each project on the list may be utilized for a purpose so not to be considered as an Ara component.
+
+#### Hyperpayment
+
+> Status: Released v0.0.1
+
+[Hyperpayment](https://hyperpayment.org/) is a protocol to create a cascading payment system that involves multiple parties.
+
+###### Use case
+- If you want to create an ecosystem that has multiple parties where people can have a passive income through your platform.
+- If you create a shovel for free, that is used by other people.
+
+###### Implementations
+- There are few specifications at [hyperpayment.org](https://hyperpayment.org/specification)
+
+###### Whats needed
+- Create the first technical implementation.
+- Create a collaboration platform's specification to gather people on Internet to work on the projects without trusting each other.
+- Create the cascading donation that I call **Ripple Fund**.
 
 #### SDS
 

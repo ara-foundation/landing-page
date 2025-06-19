@@ -5,6 +5,11 @@ description: "Ara is made up of a number of technologies, each of which is indep
 
 # Testimonials
 testimonials:
+  - name: "Hyperpayment"
+    designation: "A protocol to create a programmable money that involves three or more parties who doesn't know each other."
+    avatar: "/images/4047325_drop_sail_sea_transportation_water_icon.png"
+    content: "Hyperpayment protocol is to define a cascading payment channel that is transparent and fair for all parties."
+    
   - name: "SDS"
     designation: "A library and architectural rules to develop plug-n-play apps."
     avatar: "/images/196910_framework_app_fez_puzzle_software_icon.png"
